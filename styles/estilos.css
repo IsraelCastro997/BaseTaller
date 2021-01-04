@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+   padding: 0px;
+    box-sizing: border-box;
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+}
+.padre{
+    display: flex;
+    flex-flow:  column nowrap;
+}
+.margen-interno{
+    padding: 0 50px;
+}
+    .header1{
+        background: url(../imagenes/banners/banner1.jpg); 
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+    .header2{
+        background: url(../imagenes/banners/banner2.jpg); 
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+    .header3{
+        background: url(../imagenes/banners/banner3.jpg); 
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+    .header4{
+        background: url(../imagenes/banners/banner4.jpg); 
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+    .header5{
+        background: url(../imagenes/banners/banner5.jpg); 
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+    .header6{
+        background: url(../imagenes/banners/banner.jpg); 
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }  
+    
+        .menu{
+            background: rgba(0, 0, 0, .1);
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
+            border-bottom: 2px solid rgba(255, 255, 255, .5);
+        }
+            .logo{              
+                flex: 1 1 auto;
+                font-size: 25px;
+                width: 150px;
+            }
+                .logo a{
+                    color: white;
+                }
+                .logo a:hover{
+                    color: gray;
+                    font-size: 30px;
+                }
+
+            .nav1{
+                flex: 5 1 auto;
+                margin-left: 60px;
+               
+            }
+                .nav1 a{
+                    color:white;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+                .nav1 a:hover{
+                    color: rgb(124, 4, 4);
+                    font-size: 20px;
+                }
+
+            .nav2{
+                flex: 5 1 auto;
+                margin-left: 60px;
+                
+            }
+                .nav a{
+                    color:black;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    letter-spacing: 2px;
+                }
+                .nav a:hover{
+                    color: rgb(124, 4, 4);
+                    font-size: 20px;
+                }
+    
+
+            .social{  
+                flex: 1 1 auto;
+                display: flex;
+                color: white;
+                /* align-items: center; */
+            }
+                .social a{
+                    
+                    color: blue;
+                    padding: 0 5;
+                    margin: 10px;
+                }
+                .social a:hover{
+                    font-size: 24px;
+                    color: blueviolet;
+                }
+                
+        .texto-principal{
+           height: 580px;
+           display: flex;
+           align-items: center;
+        }
+            h1{
+                font-family: 'Lora', serif;
+                font-size: 21px;
+                color: #FFF;
+                font-weight: 300;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+    .section{
+        background: #f7f7f7;
+        display: flex;
+    }
+        .articulos{
+            background: #f7f7f7;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap ;
+        }
+            .article{
+                flex: 1 1 40%;
+                color: #444;
+                font-size: 13px;
+                letter-spacing: 1px;
+                margin: 10px 10px 0 0px;
+                flex: 1 1 45%;
+                background: #ececec;
+            }
+            .article img{
+                width: 100%;
+            }
+            .article a{
+                color: #fff;
+                font-size: 13px;
+                padding: 10px ;
+                background: #000;
+                margin: 10px 0;
+                display: inline-block;
+            }
+    
+            .article a:hover{
+                background: #546cc3;
+            }
+            h3{
+                color: rgb(47, 0, 100);
+                font-size: 13px;
+                padding: 10px 0;
+                margin-top: -80px;
+                text-transform: uppercase;
+            }
+            h2{
+                font-size: 25px;
+                padding: 0px 0 10px 0;
+                color: rgb(61, 1, 63);
+            }
+            .navegacion{
+                background: #000;
+                flex: 1 1 100%;
+                margin: 10px 10px 0 0px;
+            }
+            .navegacion a{
+                color: white;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 2px;
+            }
+        .aside{
+            
+            flex:  1 1 auto;
+            margin: 10px 5px 10px 0;
+        }
+        .aside img{
+            
+        }
+        h4{
+            background: black;
+            color: white;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+            .publicidad{
+               
+            }
+
+    .footer{
+        background: #000;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+        .pie{
+            
+           text-align: center;
+        }
+        .pie a{
+            color: white;
+            font-size: 11px;
+            text-transform: uppercase;
+            padding: 0 10px;
+            letter-spacing: 2px;
+        }
+
+@media (max-width: 1000px){
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px){
+    .articulos{
+        flex-direction: column;
+    }
+}
